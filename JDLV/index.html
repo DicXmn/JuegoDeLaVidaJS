@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Juego de la vida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Juego de la vida</h1>
+        </div>
+        <div class="control">
+            <button id="start" class="flex-item">Iniciar</button>
+            <button id="clear" class="flex-item">Limpiar</button>
+            <div class="flex-item">
+            <span>Tamaño:</span>
+            <input type="number" value="50" id="columns">
+            <span>X</span>
+            <input type="number" value="20" id="rows">
+        </div>
+            <button id="create" class="flex-item">Crear tablero</button>
+            <button id="random" class="flex-item">Llenado aleatorio</button>
+        </div>
+        <div id="content"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</body>
+</html>
